@@ -2,6 +2,13 @@ public class Funcionario{
 	protected String nome;
 	protected int idade;
 	protected double salarioBase;
+	
+	public Funcionario(String nome, int idade, double salarioBase){
+		this.nome = nome;
+		this.idade = idade;
+		this.salarioBase = salarioBase;
+	}
+
 
 	public String getNome(){
 		return this.nome;
@@ -13,7 +20,7 @@ public class Funcionario{
 		return this.salarioBase;
 	}
 	public void setSalarioBase(double salarioBase){
-		this.salarioBase = salaraioBase;
+		this.salarioBase = salarioBase;
 	}
 	
 	public double calcularSalario(){
