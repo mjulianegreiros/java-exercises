@@ -2,8 +2,8 @@ public class Gerente extends Funcionario{
 	protected String departamento;
 	
 	public Gerente(String nome, int idade, double salarioBase, String departamento){
-		super(nome, idade, salario);
-		this.departamento = departamento
+		super(nome, idade, salarioBase);
+		this.departamento = departamento;
 	}
 
 	public String getDepartamento(){
