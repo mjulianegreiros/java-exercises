@@ -2,7 +2,7 @@ public class Vendedor extends Funcionario{
 	private double comissao;
 
 	public Vendedor(String nome, int idade, double salarioBase , double comissao){
-		super(nome, idade, salario);
+		super(nome, idade, salarioBase);
 		this.comissao = comissao;
 	}
 	
@@ -20,7 +20,7 @@ public class Vendedor extends Funcionario{
 		return getSalarioBase();
 	}
 	public void exibirDetalhes(){
-		super.exibirDetalhes());
+		super.exibirDetalhes();
 		System.out.println(this.getComissao());
 	}
 }
