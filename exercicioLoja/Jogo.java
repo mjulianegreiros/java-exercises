@@ -22,15 +22,15 @@ public class Jogo extends Produto{
 	}
 
 	public double calcularPreco(){
-		/*if(this.getPeriodicidade()==30){
-			this.setPrecoBase((this.getPrecoBase()*0.15) + this.getPrecoBase());
+		if(this.getCategoria().equals("Eletrônico")){
+			this.setPrecoBase((this.getPrecoBase()*0.2) + this.getPrecoBase());
 			return this.getPrecoBase();
 		}
-		else if(this.getEdicao()==1){
-			this.setPrecoBase((this.getPrecoBase()*0.25) + this.getPrecoBase());
+		else if(this.getCategoria().equals("Tabuleiro")){
+			this.setPrecoBase((this.getPrecoBase()*0.05) + this.getPrecoBase());
 			return this.getPrecoBase();
-		}*/
-		// Modificar o escopo para a categoria jogo
+		}
+		
 	}
 
 
